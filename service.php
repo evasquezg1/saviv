@@ -26,5 +26,9 @@
 		case 'getEmplDepSal':
 			echo json_encode($saviv->getEmplDepSal());
 		break;
+
+		default:
+			echo 'prueba git';
+		break;
 	}
 ?>
